@@ -9,7 +9,9 @@
 }
 #main{
   background-color: white;
-  padding: 50px;
+  padding-top: 75px;
+  margin-top: 75px; /* delete this later*/
+  justify-content: center;
 }
 .column {
 	float: left;
