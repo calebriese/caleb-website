@@ -1,0 +1,54 @@
+#header{
+    text-align: center;
+    background-color: rgb(85, 85, 85);
+    color: white;
+  }
+#footer{
+    text-align: center;
+    background-color: rgb(85, 85, 85);
+}
+#main{
+  background-color: white;
+  padding: 50px;
+}
+.column {
+	float: left;
+	width: 33.33%;
+	font-size: 30px;
+	padding: 0;
+}
+#sidebar{
+    background-color: black;
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+.photo{
+    max-width:49%;
+    height:auto;
+    padding: 20px;
+}
+#left{
+    text-align: left;
+}
+#right{
+    text-align: right;
+}
+.container-fluid {
+	height: 100%;
+}
+body{
+  background-color: rgb(85, 85, 85);
+}
+a{
+  color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+    .column {
+      width: 100%;
+    }
+  }
+.rotate {
+    animation: rotation 10s infinite linear;
+}

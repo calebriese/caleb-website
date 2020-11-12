@@ -1,0 +1,45 @@
+
+html{
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.page{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: aqua;
+}
+  
+.menu {
+    height: 100px;
+    background-color: #B2D6FF;    /* Medium blue */
+}
+
+.sidebar {
+    float: left;
+    height: 300px;
+    background-color: #F09A9D;    /* Red */
+    width: 200px;
+}
+
+.content {
+    float: left;
+    height: 500px;
+    background-color: #F5CF8E;    /* Yellow */
+    width: 650px;
+}
+
+.footer {
+    height: 350px;
+    background-color: #D6E9FE;    /* Light blue */
+}
+
+.second {
+    background-color: blueviolet;
+}

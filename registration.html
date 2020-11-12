@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Caleb-Riese</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="./css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <script src="./js/projectJS.js"></script>
+</head>
+
+<div id="header">
+    <img id="logo" src="./images/paw.png" alt="dog picture" height="65" width="65">
+    <h3>GoodBoiAdoptions.com</h3>
+</div>
+
+<div class="container-fluid">
+    <div class="row content">
+
+
+        <div id="sidebar" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 sidenav">
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="registration.html">Adoption Registration</a></li>
+            </ul>
+        </div>
+
+
+        <div id="main" class="col-xs-12 col-sm-12 col-md-10 col-lg-10 text left">
+            <div class="row">
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 text-left">
+                    <form id="myForm">
+                        <div class="row">
+                        
+
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                        
+                                        <div class="form-group">
+                                            <label for="name">First Name:</label>
+                                            <input id="firstname" name="name" class="form-control" type="text" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="name">Last Name:</label>
+                                            <input id="lastname" name="name" class="form-control" type="text" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="street">Address Line 1:</label>
+                                            <input id="streetone" name="street" class="form-control" type="text" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="street">Address Line 2:</label>
+                                            <input id="streettwo" name="street" class="form-control" type="text" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="street">City:</label>
+                                            <input id="city" name="street" class="form-control" type="text" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="state">State:</label>
+                                            <select id="state" name="state" class="form-control">
+                                                <option value="" selected="selected" hidden="hidden" disabled="disabled">
+                                                    --Please Select--
+                                                </option>
+                                                <option value="TX">Texas</option>
+                                                <option value="MO">Missouri</option>
+                                                <option value="CO">Colorado</option>
+                                                <option value="IL">Illinois</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="zip">Zip:</label>
+                                            <input id="zip" name="zip" class="form-control" type="text" />
+                                        </div>
+
+                                </div>
+
+
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+
+                                    <div class="form-group">
+                                        <label for="username">Username:</label>
+                                        <input id="username" name="username" class="form-control" type="text" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="password">Password:</label>
+                                        <input id="password" name="password" class="form-control" type="password" value="" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="password">Repeat Password:</label>
+                                        <input id="passwordtwo" name="password" class="form-control" type="password" value="" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="email">Email:</label>
+                                        <input id="email" name="email" class="form-control" type="email" placeholder="example@provider.com"/>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="tel">Phone:</label>
+                                        <input id="tel" name="tel" class="form-control" type="tel" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="birthDay">Date of birth:</label>
+                                        <input id="birthDay" type="text" name="birthDay" class="form-control" placeholder="MM/DD/YYYY"/>
+                                    </div>
+
+                                    <label for="gender"> Gender: </label>
+                                    <br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="gender" id="maleGender" value="male">
+                                        <label class="form-check-label">
+                                          Male
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="gender" id="femaleGender" value="female">
+                                        <label class="form-check-label">
+                                          Female
+                                        </label>
+                                    </div>
+
+                                    
+
+                                    <div class="form-group">
+                                        <label for="maritalStatus"> Marital Status:</label>
+                                        <br>
+                                        <label for="single">
+                                            <input type="radio" name="status" id="single" value="single" />
+                                            Single
+                                        </label>
+                                        <label for="married">
+                                            <input type="radio" name="status" id="married" value="married"/>
+                                            Married
+                                        </label>
+                                    </div>
+
+                                    <button id="submit" type="submit" class="btn btn-success">Submit</button>
+                                    <button id="reset" type="reset" class="btn btn-danger">Reset</button>
+
+                                </div>
+
+
+                        </div> 
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="footer" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row">
+                <div class="column">
+                    <a href="https://www.akc.org/expert-advice/lifestyle/cute-puppies/" target="_blank">50 Cutest
+                        Dogs</a>
+                </div>
+                <div class="column">
+                    <a href="https://www.petco.com/shop/en/petcostore/category/dog/dog-apparel" target="_blank">Dog
+                        Clothes</a>
+                </div>
+                <div class="column">
+                    <a href="https://www.petco.com/shop/en/petcostore/s/dog-grooming" target="_blank">Dog Grooming</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+</html>
