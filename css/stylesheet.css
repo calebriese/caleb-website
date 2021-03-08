@@ -1,17 +1,20 @@
-#footer{
-    text-align: center;
-    background-color: black; /* delete later*/
-}
 #main{
   background-color: white;
   padding-top: 75px;
   justify-content: center;
+  height: 100%;
 }
-body{
-  background-color: #343a40;
+
+.navbar-brand
+{
+  margin-left: 10px;
 }
+
 a{
-  color: white; 
-  background-color: transparent; 
   text-decoration: none;
+  color: black;
+}
+
+footer{
+  text-align: center;
 }
